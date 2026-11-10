@@ -25,18 +25,6 @@ const VIEWS = {
           <div class="stat"><span class="stat-n">3</span><span class="stat-l">projects built</span></div>
           <div class="stat"><span class="stat-n">1</span><span class="stat-l">Discord HQ to join</span></div>
         </div>
-
-        <div class="titles-block">
-          <div class="titles-label">Titles &amp; Roles</div>
-          <div class="titles-grid">
-            <div class="title-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg><span class="title-name">Developer</span><span class="title-cap">Tools &amp; sites</span></div>
-            <div class="title-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg><span class="title-name">Minecraft Developer</span><span class="title-cap">Servers &amp; plugins</span></div>
-            <div class="title-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg><span class="title-name">Event Manager</span><span class="title-cap">Community events</span></div>
-            <div class="title-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg><span class="title-name">Trusted Manager</span><span class="title-cap">Management &amp; oversight</span></div>
-            <div class="title-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M8.21 13 6 22l6-3 6 3-2.21-9"/><path d="M9.5 8l1.8 1.8L14.5 6.5"/></svg><span class="title-name">Trusted Staff</span><span class="title-cap">Staff &amp; moderation</span></div>
-            <div class="title-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-8.5 8.5 8.5 8.5 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 8.5-8.5 8.38 8.38 0 0 1 8.5 8.5z"/></svg><span class="title-name">Discord Developer</span><span class="title-cap">Setup &amp; management</span></div>
-          </div>
-        </div>
       </section>`
   },
 
@@ -108,7 +96,68 @@ const VIEWS = {
           <a class="order" href="#/contact">Order Now</a>
         </article>
 
-      </div>`
+        <article class="card service-card">
+          <div class="service-num">04</div>
+          <h3>Minecraft Community Events</h3>
+          <p>Running community events end-to-end: planning, scheduling, announcements, moderation, and keeping players engaged.</p>
+          <a class="order" href="#/contact">Order Now</a>
+        </article>
+
+        <article class="card service-card">
+          <div class="service-num">05</div>
+          <h3>Plugin &amp; Permission Setup (LuckPerms)</h3>
+          <p>LuckPerms groups, ranks, prefixes and inheritance — plus full plugin stack setup: protection, economy, Vault, EssentialsX, WorldEdit.</p>
+          <a class="order" href="#/contact">Order Now</a>
+        </article>
+
+        <article class="card service-card">
+          <div class="service-num">06</div>
+          <h3>Community Growth &amp; Promotion</h3>
+          <p>Growing your server: promotion strategy, recruitment posts, social media presence, and keeping members active long-term.</p>
+          <a class="order" href="#/contact">Order Now</a>
+        </article>
+
+        <article class="card service-card">
+          <div class="service-num">07</div>
+          <h3>Ranks, Economy &amp; Shop Setup</h3>
+          <p>Vault-based economy, in-server shops, and rank tiers (default / donor / staff) wired up with the right permissions.</p>
+          <a class="order" href="#/contact">Order Now</a>
+        </article>
+
+        <article class="card service-card">
+          <div class="service-num">08</div>
+          <h3>Ticket Support &amp; Helpdesk Setup</h3>
+          <p>Ticket bot configuration, support channels, and reviewing workflows — so your players actually get help.</p>
+          <a class="order" href="#/contact">Order Now</a>
+        </article>
+
+        <article class="card service-card">
+          <div class="service-num">09</div>
+          <h3>Single-Page Websites</h3>
+          <p>Clean single-page sites like this portfolio — custom theme, hash-routed sections, deployed free on GitHub Pages.</p>
+          <a class="order" href="#/contact">Order Now</a>
+        </article>
+
+        <article class="card service-card">
+          <div class="service-num">10</div>
+          <h3>Server Maintenance &amp; Upkeep</h3>
+          <p>Ongoing care: updates, backups, uptime checks, plugin fixes, and general server health so it stays playable.</p>
+          <a class="order" href="#/contact">Order Now</a>
+        </article>
+
+      </div>
+
+      <h2 class="section-title" style="margin-top:56px">Roles I can be</h2>
+      <div class="section-sub">What you can hire me for</div>
+      <div class="titles-grid">
+            <div class="title-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg><span class="title-name">Developer</span><span class="title-cap">Tools &amp; sites</span></div>
+            <div class="title-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg><span class="title-name">Minecraft Developer</span><span class="title-cap">Servers &amp; plugins</span></div>
+            <div class="title-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg><span class="title-name">Event Manager</span><span class="title-cap">Community events</span></div>
+            <div class="title-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg><span class="title-name">Trusted Manager</span><span class="title-cap">Management &amp; oversight</span></div>
+            <div class="title-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M8.21 13 6 22l6-3 6 3-2.21-9"/><path d="M9.5 8l1.8 1.8L14.5 6.5"/></svg><span class="title-name">Trusted Staff</span><span class="title-cap">Staff &amp; moderation</span></div>
+            <div class="title-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-8.5 8.5 8.5 8.5 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 8.5-8.5 8.38 8.38 0 0 1 8.5 8.5z"/></svg><span class="title-name">Discord Developer</span><span class="title-cap">Setup &amp; management</span></div>
+          </div>
+    `
   },
 
   contact: {
