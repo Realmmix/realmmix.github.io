@@ -100,84 +100,72 @@ const VIEWS = {
           <div class="service-num">01</div>
           <h3>Discord Server Setups</h3>
           <p>I can help you set up your community server from scratch — channels, roles, permissions, community settings, expressions, and everything it needs to be a welcoming server.</p>
-          <a class="order" href="#/contact">Order Now</a>
         </article>
 
         <article class="card service-card">
           <div class="service-num">02</div>
           <h3>Minecraft Server Configuration &amp; Management</h3>
           <p>Setting up Minecraft servers: plugins, mods, lobbies, and managing community events for you.</p>
-          <a class="order" href="#/contact">Order Now</a>
         </article>
 
         <article class="card service-card">
           <div class="service-num">03</div>
           <h3>Discord Server Moderation &amp; Management</h3>
           <p>This includes: moderation, events, maintenance, ticket support, and reviewing.</p>
-          <a class="order" href="#/contact">Order Now</a>
         </article>
 
         <article class="card service-card">
           <div class="service-num">04</div>
           <h3>Minecraft Community Events</h3>
           <p>Running community events end-to-end: planning, scheduling, announcements, moderation, and keeping players engaged.</p>
-          <a class="order" href="#/contact">Order Now</a>
         </article>
 
         <article class="card service-card">
           <div class="service-num">05</div>
           <h3>Plugin &amp; Permission Setup (LuckPerms)</h3>
           <p>LuckPerms groups, ranks, prefixes and inheritance — plus full plugin stack setup: protection, economy, Vault, EssentialsX, WorldEdit.</p>
-          <a class="order" href="#/contact">Order Now</a>
         </article>
 
         <article class="card service-card">
           <div class="service-num">06</div>
           <h3>Community Growth &amp; Promotion</h3>
           <p>Growing your server: promotion strategy, recruitment posts, social media presence, and keeping members active long-term.</p>
-          <a class="order" href="#/contact">Order Now</a>
         </article>
 
         <article class="card service-card">
           <div class="service-num">07</div>
           <h3>Ranks, Economy &amp; Shop Setup</h3>
           <p>Vault-based economy, in-server shops, and rank tiers (default / donor / staff) wired up with the right permissions.</p>
-          <a class="order" href="#/contact">Order Now</a>
         </article>
 
         <article class="card service-card">
           <div class="service-num">08</div>
           <h3>Ticket Support &amp; Helpdesk Setup</h3>
           <p>Ticket bot configuration, support channels, and reviewing workflows — so your players actually get help.</p>
-          <a class="order" href="#/contact">Order Now</a>
         </article>
 
         <article class="card service-card">
           <div class="service-num">09</div>
           <h3>Single-Page Websites</h3>
           <p>Clean single-page sites like this portfolio — custom theme, hash-routed sections, deployed free on GitHub Pages.</p>
-          <a class="order" href="#/contact">Order Now</a>
         </article>
 
         <article class="card service-card">
           <div class="service-num">10</div>
           <h3>Server Maintenance &amp; Upkeep</h3>
           <p>Ongoing care: updates, backups, uptime checks, plugin fixes, and general server health so it stays playable.</p>
-          <a class="order" href="#/contact">Order Now</a>
         </article>
 
         <article class="card service-card">
           <div class="service-num">11</div>
           <h3>Discord Bot Setup</h3>
           <p>Configuring the bots you need — moderation, tickets, levels, logging — with prefixes, channels and permissions dialed in. (Carl-bot, Ticket Tool, MEE6, Dyno &amp; co.)</p>
-          <a class="order" href="#/contact">Order Now</a>
         </article>
 
         <article class="card service-card">
           <div class="service-num">12</div>
           <h3>Minecraft Event Planning</h3>
           <p>Planning and running Minecraft events end-to-end: concept, scheduling, rules, announcements, moderation, and prizes.</p>
-          <a class="order" href="#/contact">Order Now</a>
         </article>
 
       </div>
@@ -208,7 +196,7 @@ const VIEWS = {
           <p class="contact-id">Discord ID: <span id="dc-id">1487741893864456365</span> <button class="copy-id" onclick="navigator.clipboard.writeText('1487741893864456365')" aria-label="Copy Discord ID">copy</button></p>
           <a class="btn btn-primary" href="https://discord.gg/U6uX7jxcfC" target="_blank" rel="noopener">Join Realm HQ ↗</a>
           <a class="btn btn-secondary" href="https://discord.com/users/1487741893864456365" target="_blank" rel="noopener">Open my Discord profile ↗</a>
-          <p class="contact-text">Or check out my services and hit <strong style="color:var(--accent)">Order Now</strong> — every order goes through Discord.</p>
+          <p class="contact-text">Check out my services above and message me on Discord about any of them.</p>
           <a class="btn btn-secondary" href="#/services">Browse services</a>
         </div>
       </div>`
