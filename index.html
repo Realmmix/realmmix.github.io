@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Realm — Server Developer</title>
-<meta name="description" content="Realm — professional Minecraft & Discord server developer. Server setup, configuration, moderation, management, and events.">
+<meta name="description" content="Realm — professional Minecraft & Discord server developer. Server setup, configuration, moderation, management, events — and the tools built along the way.">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,8 +24,8 @@
   </a>
   <div class="nav-links">
     <a href="#home">HOME</a>
+    <a href="#projects">PROJECTS</a>
     <a href="#services">SERVICES</a>
-    <a href="#experience">EXPERIENCE</a>
     <a class="nav-cta" href="#contact">CONTACT</a>
   </div>
 </nav>
@@ -35,10 +35,47 @@
   <h1 class="hero-title">Server&nbsp;&nbsp;Developer</h1>
   <p class="hero-text">Hello! Welcome to my portfolio. I&rsquo;m the developer behind <strong>Realm</strong> — a professional server developer specializing in management, moderation, growth, promotion, etc. I can also manage events for both Discord &amp; Minecraft servers, configure and moderate them.</p>
   <div class="hero-ctas">
-    <a href="#services" class="btn btn-fill">→&nbsp;&nbsp;View my services</a>
-    <a href="#experience" class="btn btn-outline">→&nbsp;&nbsp;Check my work out</a>
+    <a href="#projects" class="btn btn-fill">→&nbsp;&nbsp;See what I&rsquo;ve built</a>
+    <a href="#services" class="btn btn-outline">→&nbsp;&nbsp;View my services</a>
   </div>
 </header>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <h2 class="section-title">My Projects</h2>
+  <div class="project-grid">
+
+    <div class="card project-card">
+      <span class="proj-tag">PORTFOLIO</span>
+      <h3>Realm — this site</h3>
+      <p>Dark single-page portfolio built from scratch with plain HTML/CSS/JS — pill navbar, monospace typography, service &amp; project cards. Hosted free on GitHub Pages with HTTPS.</p>
+      <p class="stack">HTML · CSS · JavaScript · GitHub Pages</p>
+      <a class="proj-link" href="https://realmmix.github.io/" target="_blank" rel="noopener">Visit site ↗</a>
+      <a class="proj-link" href="https://github.com/Realmmix/realmmix.github.io" target="_blank" rel="noopener">Source ↗</a>
+    </div>
+
+    <div class="card project-card">
+      <span class="proj-tag">SECURITY TOOL</span>
+      <h3>Account Vault — web &amp; desktop</h3>
+      <p>Local defensive panel for your own accounts. Tracks password rotation (30-day stale alerts), 2FA status and breach exposure; checks passwords against HaveIBeenPwned via k-anonymity (the password never leaves your machine); one-click links to Microsoft&rsquo;s official password-reset / 2FA pages. Desktop edition in Tkinter, web edition in Flask — both fully local.</p>
+      <p class="stack">Python · Flask · Tkinter · HaveIBeenPwned API</p>
+      <span class="proj-link muted">Local / private tool</span>
+    </div>
+
+    <div class="card project-card">
+      <span class="proj-tag">SERVER ADMIN</span>
+      <h3>Minecraft server administration</h3>
+      <p>Running and maintaining Minecraft communities — permission systems (LuckPerms groups, prefixes/suffixes, inheritance), plugin stack setup (protection, economy, Vault), maintenance and events.</p>
+      <p class="stack">Paper · LuckPerms · EssentialsX · Vault · WorldEdit</p>
+      <span class="proj-link muted">Private networks</span>
+    </div>
+
+  </div>
+
+  <div class="toolrow">
+    <span class="toolchip">Python</span><span class="toolchip">Flask</span><span class="toolchip">Tkinter</span><span class="toolchip">HTML/CSS/JS</span><span class="toolchip">Git</span><span class="toolchip">GitHub Pages</span><span class="toolchip">LuckPerms</span><span class="toolchip">Paper</span><span class="toolchip">Discord</span>
+  </div>
+</section>
 
 <!-- SERVICES -->
 <section id="services" class="section">
@@ -61,48 +98,6 @@
       <h3>Discord Server Moderation &amp; Management</h3>
       <p>This includes: moderation, events, maintenance, ticket support, and reviewing.</p>
       <a class="order" href="#contact">🛒&nbsp; Order Now</a>
-    </div>
-
-  </div>
-</section>
-
-<!-- EXPERIENCE -->
-<section id="experience" class="section">
-  <h2 class="section-title">My Experience</h2>
-  <div class="exp-grid">
-
-    <!-- ── YOUR SERVER CARDS ──
-         These are PLACEHOLDERS. Replace with the servers you
-         actually owned / managed. Duplicate this block to add more.
-         Do NOT list servers you didn't work on. -->
-
-    <div class="card exp-card">
-      <h3>Realm Network</h3>
-      <p class="exp-desc">The network I run — scripted Minecraft server with ranks, economy &amp; events.</p>
-      <span class="role-pill">FOUNDER &amp; DEVELOPER</span>
-      <div class="exp-logo circle-crown" aria-hidden="true">
-        <svg viewBox="0 0 64 64"><path fill="#1b1c26" d="M10 44V20l12 9 10-15 10 15 12-9v24H10z"/><rect x="10" y="48" width="44" height="5" fill="#1b1c26"/></svg>
-      </div>
-      <!-- TODO: replace # with your real invite / server IP page -->
-      <a class="join-btn" href="#contact">🔗&nbsp; JOIN HERE</a>
-    </div>
-
-    <div class="card exp-card">
-      <h3>Your Server #1</h3>
-      <p class="exp-desc">Replace this with a server you actually managed — owner, a short one-line description.</p>
-      <span class="role-pill">YOUR ROLE</span>
-      <div class="exp-logo circle-1" aria-hidden="true"><span>S1</span></div>
-      <!-- TODO: replace with real join link -->
-      <a class="join-btn" href="#contact">🔗&nbsp; JOIN HERE</a>
-    </div>
-
-    <div class="card exp-card">
-      <h3>Your Server #2</h3>
-      <p class="exp-desc">Replace this with a server you actually managed — owner, a short one-line description.</p>
-      <span class="role-pill">YOUR ROLE</span>
-      <div class="exp-logo circle-2" aria-hidden="true"><span>S2</span></div>
-      <!-- TODO: replace with real join link -->
-      <a class="join-btn" href="#contact">🔗&nbsp; JOIN HERE</a>
     </div>
 
   </div>

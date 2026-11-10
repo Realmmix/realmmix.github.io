@@ -115,7 +115,7 @@ body {
 .btn:hover { transform: translateY(-2px); }
 
 .btn-fill    { background: #3f3f47; color: #b9b9c2; }
-.btn-fill:hover { background: #49495260; color: #fff; background: #4a4a55; }
+.btn-fill:hover { background: #4a4a55; color: #fff; }
 
 .btn-outline { border: 1px solid #8f8f9c; color: #d7d7de; background: transparent; }
 .btn-outline:hover { border-color: #fff; color: #fff; }
@@ -163,67 +163,66 @@ body {
 }
 .order:hover { color: #a5c6e2; }
 
-/* ── EXPERIENCE ───────────────────────────────────── */
-.exp-grid {
+/* ── PROJECTS ──────────────────────────────────────── */
+.project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 22px;
 }
 
-.exp-card {
-  padding: 30px 26px 26px;
-  text-align: center;
+.project-card {
+  padding: 24px 24px 26px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 14px;
+  gap: 12px;
 }
 
-.exp-card h3 { font-size: 20px; color: #fff; }
-.exp-desc { color: #c9c9d1; font-size: 13px; line-height: 1.6; min-height: 42px; }
-
-.role-pill {
+.proj-tag {
   display: inline-block;
+  width: max-content;
   background: var(--surface-3);
   color: #a9a9b3;
   font-size: 10px;
   letter-spacing: 0.14em;
-  padding: 9px 18px;
-  border-radius: 999px;
+  padding: 6px 12px;
+  border-radius: 4px;
 }
 
-.exp-logo {
-  width: 96px;
-  height: 96px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 22px;
-  color: #14141c;
-  overflow: hidden;
-}
-.circle-crown { background: #f2f2f5; }
-.circle-crown svg { width: 62%; height: 62%; }
-.circle-1 { background: #7fa8c9; }
-.circle-2 { background: #b6b6c0; }
+.project-card h3 { font-size: 19px; color: #fff; line-height: 1.35; }
+.project-card p { color: #d8d8de; font-size: 13px; line-height: 1.65; }
 
-.join-btn {
-  display: block;
-  width: 100%;
-  background: #ffffff;
-  color: #14141c;
+.stack {
+  font-size: 11px !important;
+  color: var(--dim-2) !important;
+  letter-spacing: 0.04em;
+}
+
+.proj-link {
+  color: var(--order);
   text-decoration: none;
   font-weight: 700;
-  letter-spacing: 0.08em;
-  font-size: 12px;
-  padding: 13px 0;
-  border-radius: 999px;
-  margin-top: 4px;
-  transition: transform 0.15s ease;
+  font-size: 13px;
 }
-.join-btn:hover { transform: translateY(-2px); background: #ededf0; }
+.proj-link:hover { color: #a5c6e2; }
+.proj-link.muted { color: var(--dim-2); font-weight: 400; }
+
+/* ── TOOL CHIPS ─────────────────────────────────────── */
+.toolrow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 26px;
+}
+.toolchip {
+  background: var(--surface-2);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  color: var(--dim);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  padding: 7px 14px;
+  border-radius: 999px;
+}
 
 /* ── CONTACT ───────────────────────────────────────── */
 .contact-card { padding: 40px 30px; text-align: center; max-width: 640px; margin: 0 auto; }
