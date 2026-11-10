@@ -22,7 +22,7 @@ const VIEWS = {
         </div>
         <div class="hero-stats">
           <div class="stat"><span class="stat-n">12</span><span class="stat-l">services offered</span></div>
-          <div class="stat"><span class="stat-n">3</span><span class="stat-l">projects built</span></div>
+          <div class="stat"><span class="stat-n">4</span><span class="stat-l">projects built</span></div>
           <div class="stat"><span class="stat-n">1</span><span class="stat-l">Discord HQ to join</span></div>
         </div>
       </section>`
@@ -36,35 +36,40 @@ const VIEWS = {
       <div class="project-grid">
 
         <article class="card project-card">
-          <span class="proj-tag">Portfolio</span>
-          <h3>Realm — this site</h3>
-          <p>A hash-routed single-page portfolio built from scratch — Space Grotesk type, slate dark theme, client-side views that feel like separate pages. Hosted free on GitHub Pages with HTTPS.</p>
-          <p class="stack">HTML · CSS · JavaScript · GitHub Pages</p>
-          <div class="proj-links">
-            <a class="proj-link" href="https://realmmix.github.io/" target="_blank" rel="noopener">Visit site ↗</a>
-            <a class="proj-link" href="https://github.com/Realmmix/realmmix.github.io" target="_blank" rel="noopener">Source ↗</a>
-          </div>
-        </article>
-
-        <article class="card project-card">
-          <span class="proj-tag">Security Tool</span>
-          <h3>Account Vault — web &amp; desktop</h3>
-          <p>Local defensive panel for your own accounts. Tracks password rotation (30-day stale alerts), 2FA status and breach exposure; checks passwords against HaveIBeenPwned via k-anonymity (the password never leaves your machine); one-click links to Microsoft&rsquo;s official password-reset / 2FA pages. Desktop in Tkinter, web in Flask — both fully local.</p>
-          <p class="stack">Python · Flask · Tkinter · HaveIBeenPwned API</p>
-          <span class="proj-link muted">Local / private tool</span>
-        </article>
-
-        <article class="card project-card">
           <span class="proj-tag">Server Admin</span>
-          <h3>Minecraft server administration</h3>
-          <p>Running and maintaining Minecraft communities — permission systems (LuckPerms groups, prefixes, suffixes, inheritance), plugin stack setup (protection, economy, Vault), maintenance and community events.</p>
+          <h3>Minecraft Server Administration</h3>
+          <p>Running &amp; maintaining private Minecraft servers — permissions, plugins, server upkeep, backups and keeping the community alive day to day.</p>
           <p class="stack">Paper · LuckPerms · EssentialsX · Vault · WorldEdit</p>
+          <span class="proj-link muted">Private networks</span>
+        </article>
+
+        <article class="card project-card">
+          <span class="proj-tag">Permissions</span>
+          <h3>LuckPerms Rank Systems</h3>
+          <p>Full rank systems end to end: groups, prefixes &amp; suffixes, inheritance, weight sorting and context-based permissions — setup and troubleshooting.</p>
+          <p class="stack">LuckPerms · Groups · Inheritance · Prefixes</p>
+          <span class="proj-link muted">Private networks</span>
+        </article>
+
+        <article class="card project-card">
+          <span class="proj-tag">Plugins</span>
+          <h3>Plugin Stack Configuration</h3>
+          <p>Complete plugin stack setup for survival &amp; community servers — protection, economy, shops, moderation tooling and admin utilities, wired together and tuned.</p>
+          <p class="stack">Protection · Economy · Vault · EssentialsX</p>
+          <span class="proj-link muted">Private networks</span>
+        </article>
+
+        <article class="card project-card">
+          <span class="proj-tag">Events</span>
+          <h3>Minecraft Community Events</h3>
+          <p>Planning &amp; running in-game events that keep players coming back — concept, rules, scheduling, announcements, moderation and prizes.</p>
+          <p class="stack">Event planning · Coordination · Community</p>
           <span class="proj-link muted">Private networks</span>
         </article>
 
       </div>
       <div class="toolrow">
-        <span class="toolchip">Python</span><span class="toolchip">Flask</span><span class="toolchip">Tkinter</span><span class="toolchip">HTML/CSS/JS</span><span class="toolchip">Git</span><span class="toolchip">GitHub Pages</span><span class="toolchip">LuckPerms</span><span class="toolchip">Paper</span><span class="toolchip">Discord</span>
+        <span class="toolchip">Paper</span><span class="toolchip">LuckPerms</span><span class="toolchip">EssentialsX</span><span class="toolchip">Vault</span><span class="toolchip">WorldEdit</span><span class="toolchip">GriefPrevention</span><span class="toolchip">DiscordSRV</span><span class="toolchip">Config tuning</span><span class="toolchip">Backups</span>
       </div>`
   },
 
