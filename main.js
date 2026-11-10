@@ -34,9 +34,9 @@ const VIEWS = {
         <article class="card project-card">
           <span class="proj-tag">Server Admin</span>
           <h3>Minecraft Server Administration</h3>
-          <p>Running &amp; maintaining private Minecraft servers — permissions, plugins, server upkeep, backups and keeping the community alive day to day.</p>
+          <p>Running &amp; maintaining public Minecraft servers — permissions, plugins, server upkeep, backups and keeping the community alive day to day.</p>
           <p class="stack">Paper · LuckPerms · EssentialsX · Vault · WorldEdit</p>
-          <span class="proj-link muted">Private networks</span>
+          <span class="proj-link muted">Public networks</span>
         </article>
 
         <article class="card project-card">
