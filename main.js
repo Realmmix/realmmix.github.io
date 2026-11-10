@@ -16,7 +16,7 @@ const VIEWS = {
         <h1 class="hero-title">REALM</h1>
         <div class="hero-sub">Realmsmith — Minecraft &amp; Discord</div>
         <div class="hero-line"></div>
-        <p class="hero-text">Welcome to my realm. I&rsquo;m the Realmsmith behind a lot of great Minecraft servers — setup, moderation, growth, and events — for both Discord &amp; Minecraft communities. I configure them, moderate them, and keep them worth playing in.</p>
+        <p class="hero-text">Welcome to my portfolio! I&rsquo;m the developer behind a lot of great Minecraft servers — a professional server developer specializing in management, moderation, growth, promotion, etc. I can also manage events for both Discord &amp; Minecraft servers, configure and moderate them.</p>
         <div class="hero-ctas">
           <a class="btn btn-gold" href="#/projects">Browse the Forge</a>
           <a class="btn btn-ghost" href="#/services">Commission me</a>
