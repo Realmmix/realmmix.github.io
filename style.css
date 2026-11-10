@@ -281,3 +281,7 @@ body {
 .order { cursor: pointer; font-family: 'Space Grotesk'; }
 .order-link { color: var(--dim); text-decoration: none; font-size: 12px; font-weight: 500; margin-top: 4px; width: max-content; }
 .order-link:hover { color: var(--txt); }
+
+/* ── CART COUNT BUMP ─────────────────────────────────── */
+@keyframes cartBump { 0% { transform: scale(1); } 40% { transform: scale(1.5); } 100% { transform: scale(1); } }
+.cart-count.bump { animation: cartBump .35s ease; }

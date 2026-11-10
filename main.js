@@ -60,15 +60,25 @@ function setCart(items) {
   updateBadge();
 }
 function addToCart(id) {
-  if (!getCart().includes(id)) setCart([...getCart(), id]);
-  else flash(`Already in basket`);
+  if (!getCart().includes(id)) { setCart([...getCart(), id]); flash('Added to basket!'); }
+  else flash('Already in basket');
 }
 function removeFromCart(id) { setCart(getCart().filter(x => x !== id)); }
 function clearCart() { setCart([]); }
 function cartLines() { return getCart().map(id => SERVICES.find(s => s.id === id)).filter(Boolean); }
+let lastCartCount = -1;
 function updateBadge() {
   const b = document.getElementById('cart-count');
-  if (b) b.textContent = getCart().length;
+  const n = getCart().length;
+  if (b) {
+    b.textContent = n;
+    if (lastCartCount !== -1 && lastCartCount !== n) {
+      b.classList.remove('bump');
+      void b.offsetWidth; // restart animation
+      b.classList.add('bump');
+    }
+  }
+  lastCartCount = n;
 }
 function flash(msg) {
   const b = document.getElementById('cart-flash');
