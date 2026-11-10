@@ -110,7 +110,7 @@ const VIEWS = {
           <div class="contact-rune">♛</div>
           <h3>Want to hire me or work together?</h3>
           <p class="contact-text">Reach me on Discord — it&rsquo;s always open:</p>
-          <p class="contact-discord">xotxilla</p>
+          <p class="contact-discord">REALM</p>
           <p class="contact-id">Discord ID: <span id="dc-id">1487741893864456365</span> <button class="copy-id" onclick="navigator.clipboard.writeText('1487741893864456365')" aria-label="Copy Discord ID">copy</button></p>
           <a class="btn btn-gold" href="https://discord.com/users/1487741893864456365" target="_blank" rel="noopener">Open my Discord profile ↗</a>
           <p class="contact-text">Or check out my services and hit <strong style="color:var(--gold)">Order Now</strong> — every order goes through Discord.</p>
