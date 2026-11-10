@@ -25,6 +25,18 @@ const VIEWS = {
           <div class="stat"><span class="stat-n">3</span><span class="stat-l">projects built</span></div>
           <div class="stat"><span class="stat-n">1</span><span class="stat-l">Discord HQ to join</span></div>
         </div>
+
+        <div class="titles-block">
+          <div class="titles-label">Titles &amp; Roles</div>
+          <div class="titles-grid">
+            <div class="title-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg><span class="title-name">Developer</span><span class="title-cap">Tools &amp; sites</span></div>
+            <div class="title-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg><span class="title-name">Minecraft Developer</span><span class="title-cap">Servers &amp; plugins</span></div>
+            <div class="title-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg><span class="title-name">Event Manager</span><span class="title-cap">Community events</span></div>
+            <div class="title-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg><span class="title-name">Trusted Manager</span><span class="title-cap">Management &amp; oversight</span></div>
+            <div class="title-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M8.21 13 6 22l6-3 6 3-2.21-9"/><path d="M9.5 8l1.8 1.8L14.5 6.5"/></svg><span class="title-name">Trusted Staff</span><span class="title-cap">Staff &amp; moderation</span></div>
+            <div class="title-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-8.5 8.5 8.5 8.5 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 8.5-8.5 8.38 8.38 0 0 1 8.5 8.5z"/></svg><span class="title-name">Discord Developer</span><span class="title-cap">Setup &amp; management</span></div>
+          </div>
+        </div>
       </section>`
   },
 
