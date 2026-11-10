@@ -21,7 +21,7 @@ const VIEWS = {
           <a class="btn btn-secondary" href="https://discord.gg/U6uX7jxcfC" target="_blank" rel="noopener">Join the Realm HQ ↗</a>
         </div>
         <div class="hero-stats">
-          <div class="stat"><span class="stat-n">12</span><span class="stat-l">services offered</span></div>
+          <div class="stat"><span class="stat-n">13</span><span class="stat-l">services offered</span></div>
           <div class="stat"><span class="stat-n">6</span><span class="stat-l">projects built</span></div>
           <div class="stat"><span class="stat-n">1</span><span class="stat-l">Discord HQ to join</span></div>
         </div>
@@ -166,6 +166,12 @@ const VIEWS = {
           <div class="service-num">12</div>
           <h3>Minecraft Event Planning</h3>
           <p>Planning and running Minecraft events end-to-end: concept, scheduling, rules, announcements, moderation, and prizes.</p>
+        </article>
+
+        <article class="card service-card">
+          <div class="service-num">13</div>
+          <h3>Resource Pack Creating &amp; Remaking</h3>
+          <p>Custom resource packs — fresh textures for your server, rebuilding and remastering packs for newer Minecraft versions, and adapting looks to match your style.</p>
         </article>
 
       </div>
