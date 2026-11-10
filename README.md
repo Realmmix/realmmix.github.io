@@ -1,4 +1,4 @@
-# Realm — Server Developer Portfolio
+# Realm — Realmsmith Portfolio
 
 Personal portfolio for **Realm** — Minecraft & Discord server development.
 Live: https://realmmix.github.io/

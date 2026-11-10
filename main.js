@@ -9,17 +9,17 @@ const VIEW = document.getElementById('view');
 
 const VIEWS = {
   home: {
-    title: 'Realm — Server Developer',
+    title: 'Realm — Realmsmith',
     html: `
       <section class="home-wrap">
         <div class="hero-ornament">◆ &nbsp;The Obsidian Realm&nbsp; ◆</div>
         <h1 class="hero-title">REALM</h1>
-        <div class="hero-sub">Server Developer</div>
+        <div class="hero-sub">Realmsmith — Minecraft &amp; Discord</div>
         <div class="hero-line"></div>
-        <p class="hero-text">Hello! Welcome to my portfolio. I&rsquo;m the developer behind a lot of great Minecraft servers — a professional server developer specializing in management, moderation, growth, promotion, etc. I can also manage events for both Discord &amp; Minecraft servers, configure and moderate them.</p>
+        <p class="hero-text">Welcome to my realm. I&rsquo;m the Realmsmith behind a lot of great Minecraft servers — setup, moderation, growth, and events — for both Discord &amp; Minecraft communities. I configure them, moderate them, and keep them worth playing in.</p>
         <div class="hero-ctas">
-          <a class="btn btn-gold" href="#/projects">See what I&rsquo;ve built</a>
-          <a class="btn btn-ghost" href="#/services">View my services</a>
+          <a class="btn btn-gold" href="#/projects">Browse the Forge</a>
+          <a class="btn btn-ghost" href="#/services">Commission me</a>
         </div>
         <div class="hero-stats">
           <div class="hero-stat"><div class="n">3</div><div class="l">Services offered</div></div>
@@ -30,10 +30,10 @@ const VIEWS = {
   },
 
   projects: {
-    title: 'Realm — Projects',
+    title: 'Realm — Forged Works',
     html: `
-      <h2 class="section-title">My Projects</h2>
-      <div class="section-sub">Tools &amp; realms forged</div>
+      <h2 class="section-title">Forged Works</h2>
+      <div class="section-sub">What the forge has made</div>
       <div class="project-grid">
 
         <article class="card project-card">
@@ -70,10 +70,10 @@ const VIEWS = {
   },
 
   services: {
-    title: 'Realm — Services',
+    title: 'Realm — For Hire',
     html: `
-      <h2 class="section-title">My Services</h2>
-      <div class="section-sub">Hire the realm</div>
+      <h2 class="section-title">For Hire</h2>
+      <div class="section-sub">Commission the realm</div>
       <div class="service-grid">
 
         <article class="card service-card">
@@ -101,10 +101,10 @@ const VIEWS = {
   },
 
   contact: {
-    title: 'Realm — Contact',
+    title: 'Realm — The Raven Post',
     html: `
-      <h2 class="section-title">Contact</h2>
-      <div class="section-sub">Send a raven — or a Discord DM</div>
+      <h2 class="section-title">The Raven Post</h2>
+      <div class="section-sub">Orders fly through Discord</div>
       <div class="contact-wrap">
         <div class="card contact-card">
           <div class="contact-rune">♛</div>
