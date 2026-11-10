@@ -6,7 +6,7 @@ Live: https://realmmix.github.io/
 ## How it works
 
 Single page, hash routing in `main.js` — links like `#/home`, `#/projects`,
-`#/services`, `#/contact` swap the `<main id="view">` content with a fade
+`#/projects`, `#/contact` swap the `<main id="view">` content with a fade
 transition. No reloads, no framework. "Pages" are just different URLs
 rendering the same site differently — see `VIEWS` in `main.js`.
 
