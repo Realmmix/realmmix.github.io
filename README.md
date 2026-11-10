@@ -28,5 +28,5 @@ Pages rebuilds in ~1–2 min. Settings: repo Settings → Pages → `main` / roo
 
 ## Before sharing
 
-- Discord handle is `xotxilla` — confirm it's what you want public.
+- Discord handle is `n3v3rfr3v3r` — confirm it's what you want public.
 - All project claims are real work; don't add invented ones.
