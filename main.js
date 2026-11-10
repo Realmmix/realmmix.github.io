@@ -150,7 +150,13 @@ function render(name, first) {
 
 function route() { render(currentRoute(), false); }
 window.addEventListener('hashchange', route);
-render(currentRoute(), true);
+
+// Fresh opens ALWAYS land on home — strip any deep-link hash and render home.
+// (In-page navigation still routes normally afterwards.)
+if (location.hash && location.hash !== '#/home') {
+  history.replaceState(null, '', location.pathname + location.search);
+}
+render('home', true);
 
 /* ── EMBER CANVAS ─────────────────────────────────────── */
 (function embers() {
