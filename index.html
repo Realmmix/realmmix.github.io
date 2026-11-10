@@ -14,7 +14,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=14">
+<link rel="stylesheet" href="style.css?v=15">
 </head>
 <body>
 
@@ -30,6 +30,7 @@
     <a class="route" href="#/home" data-route="home">Home</a>
     <a class="route" href="#/projects" data-route="projects">Projects</a>
     <a class="route" href="#/services" data-route="services">Services</a>
+    <a class="route cart-route" href="#/basket" data-route="basket" aria-label="Basket">Basket <span id="cart-count" class="cart-count">0</span></a>
     <a class="route cta" href="https://discord.gg/U6uX7jxcfC" target="_blank" rel="noopener">Join HQ</a>
   </nav>
 </header>
@@ -44,6 +45,8 @@
   <div class="noscript">This site works best with JavaScript — everything you need: <strong>discord.gg/U6uX7jxcfC</strong></div>
 </noscript>
 
-<script src="main.js?v=14"></script>
+<script src="main.js?v=15"></script>
 </body>
 </html>
+
+<div id="cart-flash" role="status"></div>
