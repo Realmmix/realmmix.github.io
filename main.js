@@ -17,11 +17,9 @@ const VIEWS = {
         <p class="hero-text">Welcome to my portfolio! I&rsquo;m the developer behind a lot of great Minecraft servers — a professional server developer specializing in management, moderation, growth, promotion, etc. I can also manage events for both Discord &amp; Minecraft servers, configure and moderate them.</p>
         <div class="hero-ctas">
           <a class="btn btn-primary" href="#/projects">See what I&rsquo;ve built</a>
-          <a class="btn btn-secondary" href="https://discord.gg/U6uX7jxcfC" target="_blank" rel="noopener">Join the Realm HQ ↗</a>
         </div>
         <div class="hero-stats">
           <div class="stat"><span class="stat-n">6</span><span class="stat-l">projects built</span></div>
-          <div class="stat"><span class="stat-n">1</span><span class="stat-l">Discord HQ to join</span></div>
         </div>
       </section>`
   },
@@ -98,7 +96,6 @@ const VIEWS = {
           <p class="contact-text">Fastest way to reach me is Discord:</p>
           <p class="contact-discord">Realm</p>
           <p class="contact-id">Discord ID: <span id="dc-id">1487741893864456365</span> <button class="copy-id" onclick="navigator.clipboard.writeText('1487741893864456365')" aria-label="Copy Discord ID">copy</button></p>
-          <a class="btn btn-primary" href="https://discord.gg/U6uX7jxcfC" target="_blank" rel="noopener">Join Realm HQ ↗</a>
           <a class="btn btn-secondary" href="https://discord.com/users/1487741893864456365" target="_blank" rel="noopener">Open my Discord profile ↗</a>
           <p class="contact-text">Message me on Discord — I’ll tell you straight whether I can help.</p>
           <a class="btn btn-secondary" href="#/projects">See my projects</a>
