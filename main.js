@@ -21,7 +21,7 @@ const VIEWS = {
           <a class="btn btn-secondary" href="https://discord.gg/U6uX7jxcfC" target="_blank" rel="noopener">Join the Realm HQ ↗</a>
         </div>
         <div class="hero-stats">
-          <div class="stat"><span class="stat-n">13</span><span class="stat-l">services offered</span></div>
+          <div class="stat"><span class="stat-n">12</span><span class="stat-l">services offered</span></div>
           <div class="stat"><span class="stat-n">6</span><span class="stat-l">projects built</span></div>
           <div class="stat"><span class="stat-n">1</span><span class="stat-l">Discord HQ to join</span></div>
         </div>
@@ -128,48 +128,42 @@ const VIEWS = {
 
         <article class="card service-card">
           <div class="service-num">06</div>
-          <h3>Community Growth &amp; Promotion</h3>
-          <p>Growing your server: promotion strategy, recruitment posts, social media presence, and keeping members active long-term.</p>
-        </article>
-
-        <article class="card service-card">
-          <div class="service-num">07</div>
           <h3>Ranks, Economy &amp; Shop Setup</h3>
           <p>Vault-based economy, in-server shops, and rank tiers (default / donor / staff) wired up with the right permissions.</p>
         </article>
 
         <article class="card service-card">
-          <div class="service-num">08</div>
+          <div class="service-num">07</div>
           <h3>Ticket Support &amp; Helpdesk Setup</h3>
           <p>Ticket bot configuration, support channels, and reviewing workflows — so your players actually get help.</p>
         </article>
 
         <article class="card service-card">
-          <div class="service-num">09</div>
+          <div class="service-num">08</div>
           <h3>Single-Page Websites</h3>
           <p>Clean single-page sites like this portfolio — custom theme, hash-routed sections, deployed free on GitHub Pages.</p>
         </article>
 
         <article class="card service-card">
-          <div class="service-num">10</div>
+          <div class="service-num">09</div>
           <h3>Server Maintenance &amp; Upkeep</h3>
           <p>Ongoing care: updates, backups, uptime checks, plugin fixes, and general server health so it stays playable.</p>
         </article>
 
         <article class="card service-card">
-          <div class="service-num">11</div>
+          <div class="service-num">10</div>
           <h3>Discord Bot Setup</h3>
           <p>Configuring the bots you need — moderation, tickets, levels, logging — with prefixes, channels and permissions dialed in. (Carl-bot, Ticket Tool, MEE6, Dyno &amp; co.)</p>
         </article>
 
         <article class="card service-card">
-          <div class="service-num">12</div>
+          <div class="service-num">11</div>
           <h3>Minecraft Event Planning</h3>
           <p>Planning and running Minecraft events end-to-end: concept, scheduling, rules, announcements, moderation, and prizes.</p>
         </article>
 
         <article class="card service-card">
-          <div class="service-num">13</div>
+          <div class="service-num">12</div>
           <h3>Resource Pack Creating &amp; Remaking</h3>
           <p>Custom resource packs — fresh textures for your server, rebuilding and remastering packs for newer Minecraft versions, and adapting looks to match your style.</p>
         </article>
