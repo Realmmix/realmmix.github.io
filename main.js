@@ -22,7 +22,7 @@ const VIEWS = {
         </div>
         <div class="hero-stats">
           <div class="stat"><span class="stat-n">12</span><span class="stat-l">services offered</span></div>
-          <div class="stat"><span class="stat-n">4</span><span class="stat-l">projects built</span></div>
+          <div class="stat"><span class="stat-n">6</span><span class="stat-l">projects built</span></div>
           <div class="stat"><span class="stat-n">1</span><span class="stat-l">Discord HQ to join</span></div>
         </div>
       </section>`
@@ -57,6 +57,22 @@ const VIEWS = {
           <p>Complete plugin stack setup for survival &amp; community servers — protection, economy, shops, moderation tooling and admin utilities, wired together and tuned.</p>
           <p class="stack">Protection · Economy · Vault · EssentialsX</p>
           <span class="proj-link muted">Private networks</span>
+        </article>
+
+        <article class="card project-card">
+          <span class="proj-tag">Configuration</span>
+          <h3>Minecraft Server Configuration</h3>
+          <p>Full environment tuning — paper.yml, spigot.yml, server.properties, JVM flags, view distance, anti-grief and performance optimization so servers run smooth.</p>
+          <p class="stack">Paper · Config tuning · JVM · Performance</p>
+          <span class="proj-link muted">Private networks</span>
+        </article>
+
+        <article class="card project-card">
+          <span class="proj-tag">Development</span>
+          <h3>Plugin Creation</h3>
+          <p>Custom server plugins built for your specific needs — Java plugins to extend your server beyond what off-the-shelf plugins offer.</p>
+          <p class="stack">Java · Plugin API · Custom features</p>
+          <span class="proj-link muted">Available on request</span>
         </article>
 
         <article class="card project-card">
