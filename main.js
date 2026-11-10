@@ -21,7 +21,7 @@ const VIEWS = {
           <a class="btn btn-secondary" href="https://discord.gg/U6uX7jxcfC" target="_blank" rel="noopener">Join the Realm HQ ↗</a>
         </div>
         <div class="hero-stats">
-          <div class="stat"><span class="stat-n">3</span><span class="stat-l">services offered</span></div>
+          <div class="stat"><span class="stat-n">12</span><span class="stat-l">services offered</span></div>
           <div class="stat"><span class="stat-n">3</span><span class="stat-l">projects built</span></div>
           <div class="stat"><span class="stat-n">1</span><span class="stat-l">Discord HQ to join</span></div>
         </div>
@@ -142,6 +142,20 @@ const VIEWS = {
           <div class="service-num">10</div>
           <h3>Server Maintenance &amp; Upkeep</h3>
           <p>Ongoing care: updates, backups, uptime checks, plugin fixes, and general server health so it stays playable.</p>
+          <a class="order" href="#/contact">Order Now</a>
+        </article>
+
+        <article class="card service-card">
+          <div class="service-num">11</div>
+          <h3>Discord Bot Setup</h3>
+          <p>Configuring the bots you need — moderation, tickets, levels, logging — with prefixes, channels and permissions dialed in. (Carl-bot, Ticket Tool, MEE6, Dyno &amp; co.)</p>
+          <a class="order" href="#/contact">Order Now</a>
+        </article>
+
+        <article class="card service-card">
+          <div class="service-num">12</div>
+          <h3>Minecraft Event Planning</h3>
+          <p>Planning and running Minecraft events end-to-end: concept, scheduling, rules, announcements, moderation, and prizes.</p>
           <a class="order" href="#/contact">Order Now</a>
         </article>
 
