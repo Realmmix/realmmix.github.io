@@ -85,6 +85,55 @@ const VIEWS = {
       </div>`
   },
 
+  profile: {
+    title: 'Realm — Profile',
+    html: `
+      <h2 class="section-title">Profile</h2>
+      <div class="section-sub">My Discord profile card</div>
+      <div class="discord-wrap">
+        <div class="discord-card">
+          <div class="dc-banner">
+            <svg viewBox="0 0 500 130" preserveAspectRatio="none" aria-hidden="true">
+              <defs>
+                <radialGradient id="dcglow" cx="20%" cy="0%" r="90%">
+                  <stop offset="0%" stop-color="#0e6e5f" stop-opacity="0.9"/>
+                  <stop offset="45%" stop-color="#12303a" stop-opacity="0.55"/>
+                  <stop offset="100%" stop-color="#0f1117" stop-opacity="0"/>
+                </radialGradient>
+              </defs>
+              <rect width="500" height="130" fill="url(#dcglow)"/>
+              <circle cx="392" cy="32" r="30" fill="#7ff5d0" opacity="0.12"/>
+              <path d="M40 110 Q190 60 340 118 L500 118 L500 130 L0 130 Z" fill="#0b1b22" opacity="0.9"/>
+              <path d="M0 118 L500 118" stroke="#34d399" stroke-opacity="0.18" stroke-width="1"/>
+            </svg>
+            <div class="dc-online"><span class="dot"></span> ONLINE</div>
+          </div>
+          <div class="dc-body">
+            <div class="dc-avatar">
+              <svg viewBox="0 0 64 64" aria-hidden="true">
+                <rect width="64" height="64" rx="32" fill="#0f1117"/>
+                <path fill="#34d399" d="M12 42V22l11 8.5L32 18l9 12.5L52 22v20H12z"/>
+                <rect x="12" y="46" width="40" height="4" fill="#34d399"/>
+              </svg>
+            </div>
+            <div class="dc-badges" aria-label="Badges">
+              <span title="Achievement">🎯</span>
+              <span title="Achievement">🔺</span>
+              <span title="Artist">🎨</span>
+              <span title="Fighter">⚔️</span>
+              <span title="Gamer">🎮</span>
+              <span title="Legend">🎗️</span>
+            </div>
+            <div class="dc-name">Realm</div>
+            <div class="dc-meta">n3v3rfr3v3r &nbsp;·&nbsp; He-him</div>
+            <div class="dc-status">I’m a dev in some serverz!</div>
+            <div class="dc-link">&#128279; <a href="https://realmmix.github.io/" target="_blank" rel="noopener">Realmmix.github.io</a></div>
+          </div>
+        </div>
+        <p class="profile-note">That’s me — drop into the server, or hit contact below.</p>
+      </div>`
+  },
+
   contact: {
     title: 'Realm — Contact',
     html: `
