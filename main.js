@@ -110,11 +110,7 @@ const VIEWS = {
           </div>
           <div class="dc-body">
             <div class="dc-avatar">
-              <svg viewBox="0 0 64 64" aria-hidden="true">
-                <rect width="64" height="64" rx="32" fill="#0f1117"/>
-                <path fill="#34d399" d="M12 42V22l11 8.5L32 18l9 12.5L52 22v20H12z"/>
-                <rect x="12" y="46" width="40" height="4" fill="#34d399"/>
-              </svg>
+              <img src="assets/pfp.png" alt="Realm — Discord avatar" width="96" height="96">
             </div>
             <div class="dc-badges" aria-label="Badges">
               <span title="Achievement">🎯</span>
