@@ -24,7 +24,7 @@ Pages rebuilds in ~1–2 min. Settings: repo Settings → Pages → `main` / roo
 - `index.html` — shell: canvas, top bar, `<main id="view">`, footer
 - `style.css` — obsidian theme, gold accents, route pill nav
 - `main.js` — router + views + ember particle canvas
-- `assets/favicon.svg` — crown
+- `assets/favicon.png` — profile picture (also `assets/favicon.svg` legacy)
 
 ## Before sharing
 
