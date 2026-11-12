@@ -110,7 +110,7 @@ const VIEWS = {
           </div>
           <div class="dc-body">
             <div class="dc-avatar">
-              <img src="assets/pfp.png" alt="Realm — Discord avatar" width="96" height="96">
+              <img src="assets/pfp.jpg" alt="Realm — Discord avatar" width="96" height="96">
             </div>
             <div class="dc-badges" aria-label="Badges">
               <span title="Achievement">🎯</span>
