@@ -41,7 +41,7 @@ body {
   border-bottom: 1px solid var(--border);
 }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
-.brand-mark { width: 22px; height: 22px; transition: transform .25s ease; }
+.brand-mark { width: 30px; height: 30px; border-radius: 50%; object-fit: cover; border: 2px solid var(--accent); transition: transform .25s ease; }
 .brand:hover .brand-mark { transform: translateY(-2px); }
 .brand-word { font-weight: 700; letter-spacing: .18em; font-size: 16px; color: var(--txt); }
 
